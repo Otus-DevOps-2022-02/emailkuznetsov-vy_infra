@@ -10,4 +10,3 @@ ufw disable
 apt -y install pritunl mongodb-org
 systemctl enable mongod pritunl
 systemctl start mongod pritunl
-EOF
